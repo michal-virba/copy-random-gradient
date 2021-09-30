@@ -1,0 +1,73 @@
+body{font-family: 'Stick No Bills', sans-serif;}
+
+.container{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#hex-colors{
+  width: 100%;
+  text-align: center;
+}
+
+#hex-colors h1, h2{
+  font-size: 2em;
+  text-transform: uppercase;
+  animation: colorchange 10s infinite alternate;
+  transition: all ease-in-out;
+}
+
+#hex-colors h2{
+  margin-top: 15%;
+  text-transform: lowercase;
+}
+
+button:first-of-type {
+  margin: 3em 0;
+}
+
+#submit {
+  font-size: 150%;
+}
+
+#copy-text {
+  min-width: 27em;
+  min-height: 1em;
+}
+
+.copy-info {
+  position: absolute;
+  left: 35.5%;
+  
+  margin: 0 auto;
+  color: #fff;
+  font-size: 2em;
+
+  animation: colorchange 2s infinite alternate;
+  transition: all ease-in-out;
+}
+
+@keyframes colorchange {
+  0% {
+    color: #fff;
+  }
+
+  50% {
+    color: #000;
+  }
+
+  100% {
+    color: #fff;
+  }
+
+}
+
+@media(max-width:480px){
+  #hex-colors h1{font-size: 1.5em;}
+  
+  #hex-colors h2{font-size: 1.5em;}
+}

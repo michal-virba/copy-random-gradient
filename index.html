@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Generátor šikmého gradientu</title>
+</head>
+<body>
+
+  <main>
+    <div class="container">
+      <div id="hex-colors">
+        <h1>Kliknutím na tlačidlo vygeneruj náhodný šikmý gradient</h1>
+        <h2>background: linear-gradient(<span id="deg"></span>deg, #<span id="hexcode1">ffffff</span>, #<span id="hexcode2">ffffff</span>);</h2>
+        
+        <button id="submit" class="btn btn-light">Sem stačí kliknúť </button><br>
+
+        <textarea id="copy-text"></textarea><br>
+        <button id="copy-button" class="btn btn-dark">Skopíruj text</button>
+
+      </div>
+    </div>
+  </main>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
