@@ -7,5 +7,5 @@ HTML
 CSS  
 JS  
 
-nájdi si svoj náhodný gradient
+nájdi si svoj náhodný gradient  
 **Enjoy :)**
